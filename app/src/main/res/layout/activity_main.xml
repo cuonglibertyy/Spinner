@@ -21,21 +21,24 @@
         android:layout_width="match_parent"
         android:layout_height="100dp">
 
-        <android.support.v7.widget.AppCompatSpinner
-            android:id="@+id/spn_Sdt"
-            android:layout_weight="3"
+        <Spinner
+            android:id="@+id/spinner_countries"
+            android:layout_weight="4"
             android:layout_width="0dp"
             android:layout_height="100dp">
 
-        </android.support.v7.widget.AppCompatSpinner>
+        </Spinner>
+
         <EditText
+
             android:id="@+id/ed_Sdt"
-            android:layout_weight="7"
             android:layout_width="0dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_weight="6" />
 
     </LinearLayout>
     <TextView
+        android:layout_marginTop="20dp"
         android:text="avc"
         android:layout_gravity="center"
         android:id="@+id/tv_sdt"
@@ -43,6 +46,7 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:layout_marginTop="20dp"
         android:id="@+id/btn_submit"
         android:layout_gravity="center"
         android:text="submid"

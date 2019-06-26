@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Spinner</string>
+    <string name="black">#000</string>
 </resources>
